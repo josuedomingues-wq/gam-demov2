@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+      <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+        <stop stop-color="#274c35"/><stop offset="1" stop-color="#49795b"/>
+      </linearGradient></defs>
+      <rect width="1200" height="760" fill="url(#bg)"/>
+      
+        <ellipse cx="600" cy="420" rx="440" ry="245" fill="#305d39"/>
+        <ellipse cx="600" cy="420" rx="390" ry="205" fill="none" stroke="#d9f1d7" stroke-width="8" opacity=".8"/>
+        <line x1="600" y1="215" x2="600" y2="625" stroke="#d9f1d7" stroke-width="8"/>
+        <circle cx="600" cy="420" r="70" fill="none" stroke="#d9f1d7" stroke-width="8"/>
+        <circle cx="600" cy="420" r="45" fill="#f3f3f3"/>
+        <polygon points="600,380 625,398 616,427 584,427 575,398" fill="#222"/>
+        
+      <g font-family="Arial,Helvetica,sans-serif">
+        <rect x="55" y="50" width="1090" height="54" rx="12" fill="#000" opacity=".20"/>
+        <text x="80" y="87" font-size="32" font-weight="700" fill="#fff">Sports Streaming</text>
+        <text x="80" y="720" font-size="24" fill="#fff" opacity=".85">Demo Media · Sports</text>
+      </g>
+    </svg>

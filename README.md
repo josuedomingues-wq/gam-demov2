@@ -1,19 +1,18 @@
-# Demo Media Static v2
+# Demo Media Static v4
 
-Versão 100% estática e navegável.
+Versão final estática para GitHub Pages.
 
-## Links que funcionam
-- Home
-- Tecnologia
-- Negócios
-- Esportes
-- Entretenimento
-- Ler reportagem
-- Cards da Home
-- Cards das categorias
-- Voltar para Home
+## Estrutura
+Todos os arquivos ficam na raiz. Não existe pasta `assets`.
 
-## Publicar no GitHub Pages
+Inclui:
+- páginas HTML navegáveis
+- imagens SVG diferentes para Home, categorias e matérias
+- CSS
+- `.nojekyll`
+- integração real do Google Ad Manager no artigo de programática
+
+## GitHub Pages
 Settings → Pages → Deploy from a branch → main → /(root)
 
-Sem npm, Vite, React ou GitHub Actions.
+Sem build, npm, Vite, React ou GitHub Actions.

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
       <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-        <stop stop-color="#9fb5c1"/><stop offset="1" stop-color="#394c5b"/>
+        <stop stop-color="#1d3557"/><stop offset="1" stop-color="#457b9d"/>
       </linearGradient></defs>
       <rect width="1200" height="760" fill="url(#bg)"/>
       
@@ -8,7 +8,7 @@
           <rect x="90" y="100" width="300" height="190" rx="12" fill="#14212a"/>
           <rect x="430" y="85" width="330" height="205" rx="12" fill="#17242d"/>
           <rect x="800" y="115" width="310" height="175" rx="12" fill="#18252e"/>
-          <polyline points="120,240 165,195 215,210 265,135 350,170" fill="none" stroke="#77d2ff" stroke-width="8"/>
+          <polyline points="120,240 165,195 215,210 265,135 350,170" fill="none" stroke="#a8dadc" stroke-width="8"/>
           <g fill="#9ccce4"><rect x="470" y="130" width="58" height="105"/><rect x="550" y="160" width="58" height="75"/><rect x="630" y="115" width="58" height="120"/></g>
         </g>
         <rect x="0" y="510" width="1200" height="250" fill="#423931"/>
@@ -18,7 +18,7 @@
         
       <g font-family="Arial,Helvetica,sans-serif">
         <rect x="55" y="50" width="1090" height="54" rx="12" fill="#000" opacity=".20"/>
-        <text x="80" y="87" font-size="32" font-weight="700" fill="#fff">Programmatic &amp; Publishing</text>
+        <text x="80" y="87" font-size="32" font-weight="700" fill="#fff">Ad Technology</text>
         <text x="80" y="720" font-size="24" fill="#fff" opacity=".85">Demo Media · Technology</text>
       </g>
     </svg>

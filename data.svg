@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+      <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+        <stop stop-color="#243b53"/><stop offset="1" stop-color="#486581"/>
+      </linearGradient></defs>
+      <rect width="1200" height="760" fill="url(#bg)"/>
+      
+        <g fill="none" stroke="#f6c344" stroke-width="8">
+          <path d="M120 540 C250 350 330 460 460 290 S710 260 840 190 S1020 220 1110 120"/>
+          <path d="M120 610 C260 490 420 520 530 400 S760 360 900 300 S1040 320 1120 250" opacity=".5"/>
+        </g>
+        <g fill="#fff" opacity=".92">
+          <rect x="100" y="100" width="250" height="150" rx="18"/>
+          <rect x="390" y="120" width="300" height="130" rx="18"/>
+          <rect x="730" y="105" width="360" height="145" rx="18"/>
+        </g>
+        <g fill="#f6c344" opacity=".7">
+          <rect x="150" y="160" width="34" height="50"/><rect x="205" y="140" width="34" height="70"/><rect x="260" y="120" width="34" height="90"/>
+          <circle cx="480" cy="185" r="38"/><circle cx="585" cy="185" r="22"/>
+        </g>
+        
+      <g font-family="Arial,Helvetica,sans-serif">
+        <rect x="55" y="50" width="1090" height="54" rx="12" fill="#000" opacity=".20"/>
+        <text x="80" y="87" font-size="32" font-weight="700" fill="#fff">First-party Data</text>
+        <text x="80" y="720" font-size="24" fill="#fff" opacity=".85">Demo Media · Business</text>
+      </g>
+    </svg>

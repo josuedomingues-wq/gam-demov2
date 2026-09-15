@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+      <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+        <stop stop-color="#4d3b2f"/><stop offset="1" stop-color="#7a604b"/>
+      </linearGradient></defs>
+      <rect width="1200" height="760" fill="url(#bg)"/>
+      
+        <g transform="translate(120 150)">
+          <rect x="0" y="0" width="390" height="420" rx="22" fill="#f8f5f1"/>
+          <rect x="450" y="0" width="510" height="420" rx="22" fill="#f8f5f1"/>
+          <g fill="#e9c46a">
+            <rect x="65" y="80" width="250" height="18" rx="9"/><rect x="65" y="125" width="200" height="16" rx="8" opacity=".65"/>
+            <rect x="515" y="75" width="320" height="18" rx="9"/><rect x="515" y="120" width="260" height="16" rx="8" opacity=".65"/>
+          </g>
+          <path d="M250 280 C360 215 445 215 560 280" stroke="#e9c46a" stroke-width="26" fill="none" stroke-linecap="round"/>
+          <circle cx="240" cy="285" r="58" fill="#d7a27f"/><circle cx="575" cy="285" r="58" fill="#9f694e"/>
+        </g>
+        
+      <g font-family="Arial,Helvetica,sans-serif">
+        <rect x="55" y="50" width="1090" height="54" rx="12" fill="#000" opacity=".20"/>
+        <text x="80" y="87" font-size="32" font-weight="700" fill="#fff">Media Business</text>
+        <text x="80" y="720" font-size="24" fill="#fff" opacity=".85">Demo Media · Business</text>
+      </g>
+    </svg>
