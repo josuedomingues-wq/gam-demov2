@@ -16,7 +16,8 @@
     href="styles.css"
   >
 
-  <!-- Google Publisher Tag -->
+
+  <!-- GOOGLE PUBLISHER TAG -->
   <script
     async
     src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
@@ -27,6 +28,11 @@
     window.googletag = window.googletag || { cmd: [] };
 
     googletag.cmd.push(function () {
+
+      /*
+       * SLOT 300x250
+       * Código real já gerado pelo GAM
+       */
       googletag
         .defineSlot(
           '/23366135384/demo_lovable_atf_300x250',
@@ -35,10 +41,23 @@
         )
         .addService(googletag.pubads());
 
+
+      /*
+       * SLOT 728x90
+       *
+       * NÃO INVENTAR AQUI.
+       *
+       * Quando você gerar a tag do novo Ad Unit
+       * no GAM, o novo defineSlot entra aqui.
+       */
+
+
       googletag.pubads().enableSingleRequest();
       googletag.enableServices();
+
     });
   </script>
+
 </head>
 
 
@@ -94,6 +113,7 @@
 
   <main class="container">
 
+    <!-- DESTAQUE -->
     <section class="section-heading">
 
       <span>
@@ -107,18 +127,82 @@
     </section>
 
 
+    <!-- HERO -->
     <section class="hero-grid">
 
-      <a href="article-programmatic.html">
 
-        <img
-          class="hero-image"
-          src="newsroom.svg"
-          alt="Programmatic publishing"
+      <!-- ========================= -->
+      <!-- COLUNA ESQUERDA -->
+      <!-- ========================= -->
+
+      <div
+        class="hero-left"
+        style="
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+        "
+      >
+
+        <a href="article-programmatic.html">
+
+          <img
+            class="hero-image"
+            src="newsroom.svg"
+            alt="Programmatic publishing"
+          >
+
+        </a>
+
+
+        <!-- ================================= -->
+        <!-- SLOT FUTURO 728x90 -->
+        <!-- ================================= -->
+
+        <div
+          style="
+            width: 728px;
+            max-width: 100%;
+          "
         >
 
-      </a>
+          <div
+            style="
+              font-size: 10px;
+              color: #888;
+              margin-bottom: 6px;
+              letter-spacing: 0.5px;
+            "
+          >
+            ADVERTISEMENT
+          </div>
 
+
+          <!--
+            BODY REAL DO AD UNIT 728x90
+            ENTRA EXATAMENTE AQUI.
+
+            Exemplo da estrutura que o GAM vai gerar:
+
+            <div id="NOVO_DIV_ID">
+              <script>
+                googletag.cmd.push(function() {
+                  googletag.display('NOVO_DIV_ID');
+                });
+              </script>
+            </div>
+
+            NÃO preencher até termos o código real do GAM.
+          -->
+
+        </div>
+
+      </div>
+
+
+      <!-- ========================= -->
+      <!-- COLUNA DIREITA -->
+      <!-- ========================= -->
 
       <div class="hero-copy">
 
@@ -126,14 +210,17 @@
           TECNOLOGIA
         </div>
 
+
         <h1>
           Publicidade programática entra em uma nova fase de transparência
         </h1>
+
 
         <p>
           Publishers redesenham suas estratégias de inventário
           para construir relações mais diretas entre marcas e leitores.
         </p>
+
 
         <a
           class="read-more"
@@ -143,7 +230,10 @@
         </a>
 
 
-        <!-- Google Ad Manager -->
+        <!-- ================================= -->
+        <!-- SLOT REAL 300x250 -->
+        <!-- ================================= -->
+
         <div
           style="
             margin-top: 40px;
@@ -164,14 +254,12 @@
 
 
           <!-- /23366135384/demo_lovable_atf_300x250 -->
+
           <div
             id="div-gpt-ad-1789431732785-0"
             style="
-              width: 300px;
-              height: 250px;
               min-width: 300px;
               min-height: 250px;
-              overflow: hidden;
             "
           >
 
@@ -190,39 +278,11 @@
       </div>
 
     </section>
-<section class="hero-grid">
-
-  <div class="hero-left">
-
-    <a href="article-programmatic.html">
-      <img
-        class="hero-image"
-        src="newsroom.svg"
-        alt="Programmatic publishing"
-      >
-    </a>
-
-    <!-- BANNER 728x90 ENTRA AQUI -->
-    <div class="leaderboard-ad">
-      <div class="ad-label">
-        ADVERTISEMENT
-      </div>
-
-      <!-- BODY REAL DO NOVO AD UNIT -->
-    </div>
-
-  </div>
 
 
-  <div class="hero-copy">
-
-    <!-- título, texto etc. -->
-
-    <!-- 300x250 ATUAL CONTINUA AQUI -->
-
-  </div>
-
-</section>
+    <!-- ========================= -->
+    <!-- ÚLTIMAS NOTÍCIAS -->
+    <!-- ========================= -->
 
     <section class="latest">
 
@@ -232,6 +292,9 @@
 
 
       <div class="cards">
+
+
+        <!-- CARD 1 -->
 
         <a
           class="card"
@@ -260,6 +323,8 @@
         </a>
 
 
+        <!-- CARD 2 -->
+
         <a
           class="card"
           href="article-deals.html"
@@ -286,6 +351,8 @@
 
         </a>
 
+
+        <!-- CARD 3 -->
 
         <a
           class="card"
