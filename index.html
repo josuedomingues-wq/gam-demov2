@@ -16,8 +16,7 @@
     href="styles.css"
   >
 
-
-  <!-- GOOGLE PUBLISHER TAG -->
+  <!-- Google Publisher Tag -->
   <script
     async
     src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
@@ -29,10 +28,7 @@
 
     googletag.cmd.push(function () {
 
-      /*
-       * SLOT 300x250
-       * Código real já gerado pelo GAM
-       */
+      /* SLOT 300x250 */
       googletag
         .defineSlot(
           '/23366135384/demo_lovable_atf_300x250',
@@ -42,14 +38,14 @@
         .addService(googletag.pubads());
 
 
-      /*
-       * SLOT 728x90
-       *
-       * NÃO INVENTAR AQUI.
-       *
-       * Quando você gerar a tag do novo Ad Unit
-       * no GAM, o novo defineSlot entra aqui.
-       */
+      /* SLOT 728x90 */
+      googletag
+        .defineSlot(
+          '/23366135384/demo_lovable_leaderboard_728x90',
+          [728, 90],
+          'div-gpt-ad-1789484885316-0'
+        )
+        .addService(googletag.pubads());
 
 
       googletag.pubads().enableSingleRequest();
@@ -131,16 +127,13 @@
     <section class="hero-grid">
 
 
-      <!-- ========================= -->
       <!-- COLUNA ESQUERDA -->
-      <!-- ========================= -->
-
       <div
-        class="hero-left"
         style="
           display: flex;
           flex-direction: column;
           gap: 18px;
+          min-width: 0;
         "
       >
 
@@ -155,16 +148,8 @@
         </a>
 
 
-        <!-- ================================= -->
-        <!-- SLOT FUTURO 728x90 -->
-        <!-- ================================= -->
-
-        <div
-          style="
-            width: 728px;
-            max-width: 100%;
-          "
-        >
+        <!-- 728x90 -->
+        <div>
 
           <div
             style="
@@ -178,32 +163,35 @@
           </div>
 
 
-          <!--
-            BODY REAL DO AD UNIT 728x90
-            ENTRA EXATAMENTE AQUI.
+          <!-- /23366135384/demo_lovable_leaderboard_728x90 -->
+          <div
+            id="div-gpt-ad-1789484885316-0"
+            style="
+              min-width: 728px;
+              min-height: 90px;
+              width: 728px;
+              height: 90px;
+              max-width: 100%;
+              overflow: hidden;
+            "
+          >
 
-            Exemplo da estrutura que o GAM vai gerar:
+            <script>
+              googletag.cmd.push(function () {
+                googletag.display(
+                  'div-gpt-ad-1789484885316-0'
+                );
+              });
+            </script>
 
-            <div id="NOVO_DIV_ID">
-              <script>
-                googletag.cmd.push(function() {
-                  googletag.display('NOVO_DIV_ID');
-                });
-              </script>
-            </div>
-
-            NÃO preencher até termos o código real do GAM.
-          -->
+          </div>
 
         </div>
 
       </div>
 
 
-      <!-- ========================= -->
       <!-- COLUNA DIREITA -->
-      <!-- ========================= -->
-
       <div class="hero-copy">
 
         <div class="kicker">
@@ -230,10 +218,7 @@
         </a>
 
 
-        <!-- ================================= -->
-        <!-- SLOT REAL 300x250 -->
-        <!-- ================================= -->
-
+        <!-- 300x250 -->
         <div
           style="
             margin-top: 40px;
@@ -254,12 +239,14 @@
 
 
           <!-- /23366135384/demo_lovable_atf_300x250 -->
-
           <div
             id="div-gpt-ad-1789431732785-0"
             style="
               min-width: 300px;
               min-height: 250px;
+              width: 300px;
+              height: 250px;
+              overflow: hidden;
             "
           >
 
@@ -280,10 +267,7 @@
     </section>
 
 
-    <!-- ========================= -->
     <!-- ÚLTIMAS NOTÍCIAS -->
-    <!-- ========================= -->
-
     <section class="latest">
 
       <div class="section-title">
@@ -295,7 +279,6 @@
 
 
         <!-- CARD 1 -->
-
         <a
           class="card"
           href="article-data.html"
@@ -324,7 +307,6 @@
 
 
         <!-- CARD 2 -->
-
         <a
           class="card"
           href="article-deals.html"
@@ -353,7 +335,6 @@
 
 
         <!-- CARD 3 -->
-
         <a
           class="card"
           href="article-entertainment.html"
